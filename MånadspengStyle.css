@@ -1,0 +1,50 @@
+.button {
+  display: block;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 1%;
+  
+  padding: 1%;
+  border: none;
+  color: white;
+  background: #717cfa;
+  font-size: 70px;
+  -webkit-border-radius: 28px;
+}
+
+.button:hover {
+  background: #3cb0fd;
+}
+
+#tot {
+  text-align: center;
+  font-size: 90px;
+}
+
+#ny {
+  background: #ff3d3d;
+
+}
+
+#ny:hover {
+  background: #ff7070;
+}
+
+#ovrigt {
+  display: inline;
+}
+
+#cost {
+  font-size: 30px;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
