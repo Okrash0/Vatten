@@ -19,7 +19,7 @@ window.onload = function() {
 function tioKr() {
   totKr += 700;
   document.getElementById('tot').innerHTML = totKr + ' ' + 'ml';
-  localStorage.setItem('Kr', totKr);
+  localStorage.setItem('ml', totKr);
 }
 
 
@@ -28,7 +28,7 @@ function reset() {
   if (conf) {
     totKr = 0;
     document.getElementById('tot').innerHTML = totKr + ' ' + 'ml';
-    localStorage.setItem('Kr', totKr);
+    localStorage.setItem('ml', totKr);
   }
 }
 
@@ -41,5 +41,5 @@ function costum() {
     totKr = 0;
     document.getElementById('tot').innerHTML = totKr + ' ' + 'ml';
   }
-  localStorage.setItem('Kr', totKr);
+  localStorage.setItem('ml', totKr);
 }
